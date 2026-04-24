@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Daten (grosse Dateien nicht einchecken)
+data/*.npy
+data/*.npz
+data/*.csv
+data/*.png
+
+# OS
+.DS_Store
+Thumbs.db
